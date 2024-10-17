@@ -1,0 +1,65 @@
+#+title: Notes
+
+Lox is small, high level scripting language
+
+Dynamically typed meaning that type checking is done at runtime :(
+
+Static type checking will be done later.
+
+Automatic memory management so no allocating or freeing memory
+We'll be writing a garbage collector
+
+Data types that will be used:
+- Booleans
+- Numbers (i.e. not ints but double floats)
+  - ints
+  - decimals
+- Strings
+- Nil (basically null) (would be worth banning if statically typed)
+
++-*/
+With also unary -
+
+We will also use + to concatenate strings
+
+comparison
+<, <=, >, >=
+
+== and !=
+
+logical operators: !_, and, or
+
+They will aslo be short circuit
+
+An expression followed by a ; becomes a statement
+
+A block is a case where a single statement is expected you can put multiple:
+
+{
+stmt1;
+stmt2;
+}
+
+Declaring variables are done with the var keyword
+
+if else
+
+while
+
+for
+
+function calls:
+
+functionName(arg1, arg2, arg3);
+
+functionName();
+
+fun funName(arg1, arg2){
+
+}
+
+*Parameter  v Argument*
+
+Argument: value you pass to a function when you call it. the concrete thing you supply.
+
+Parameter: is the abstract variable that is the stand in
